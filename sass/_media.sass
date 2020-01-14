@@ -1,0 +1,251 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+@media (min-width: 1500px)
+	.partners-section, .advantage-section
+		.container 
+			max-width: 1470px
+
+// ≥1200px
++media-breakpoint-down(lg)
+	.header-contacts__item
+		margin: 0 7px
+		&__info__title
+			font-size: 16px
+		&__info__text
+			font-size: 14px
+		&__icon
+			padding-right: 7px
+				
+
+	.help-section
+		background-position: 35% 0
+	
+	.partners-section
+		.container
+			max-width: 100%
+	.partners-inner__item
+		margin: 8px 12px
+	.footer-item-contact
+		margin-right: 10px			
+@media (max-width: 1055px)
+	.tabs-slider 
+		.slick-arrow.slick-prev
+			left: -7px
+		.slick-arrow
+			left: calc(100% + 7px)
+	
+
+// ≥992px
++media-breakpoint-down(md)
+	.header__nav ul li
+		padding:  0 7px
+		a
+			font-size: 13px
+	.header__menu
+		.container
+			max-width: 100%
+	.header-contacts__item__icon
+		margin: 0 auto
+	.header-contacts__item 
+		position: relative	
+	.header-contacts__item__info
+		display: none
+		position: absolute
+		top: 47px
+		z-index: 2
+		padding: 10px 6px
+		margin-top: 9px
+		background-color: #fff
+		border: 1px solid #ccd8e0
+		border-radius: 4px
+		box-shadow: 1px 1px 3px rgba(0,0,0,0.25)
+		width: 180px
+		left: -48px
+		text-align: center
+	.banner-item-content
+		&__untitle
+			font-size: 16px
+			line-height: 18px
+		&__description 
+			max-width: 358px
+			font-size: 12.5px
+			line-height: 15px
+			margin-bottom: 12px
+		.button
+			padding: 8px 15px
+			font-size: 14px
+			line-height: 13px
+			letter-spacing: 0.01em	
+	.progressBarContainer
+		bottom: 5px			
+	.tab-content .item
+		padding: 0 22px	
+	.help-section
+    background-position: 56% 0
+	.partners-section
+    padding: 33px 0	
+	.partners-inner__item
+    flex-basis: 15%		
+	.advantage-item
+		&__icon
+			padding: 25px
+			margin-bottom: 10px
+			width: 96px
+			height: 96px	
+		&__title
+			margin-bottom: 10px
+	.footer	
+		padding: 40px 0 0 0	
+		&-padding-top
+			padding-top: 30px
+		&-item-contact
+			margin-right: 0
+			flex-basis: 50%		
+	.catalog-heading 
+		margin-top: 85px	
+	.catalog-slider .slick-arrow
+		bottom: -16%  	
+	.parket-inner, .door-inner
+	margin-bottom: 100px	
+@media (max-width: 770px)			
+	.tab-content 
+		.slick-arrow
+			left: calc(100% + 14px)
+		.slick-arrow.slick-prev
+			left: -14px				
+// ≥768px
++media-breakpoint-down(sm)
+	.header-bag__content__title
+		font-size: 15px
+	.header-contacts__item__info
+		left: -67px
+		top: 35px	
+	.header__information
+		padding-bottom: 0
+	.header__menu__container
+		padding-right: 2em 
+	.header__nav ul li
+		padding: 0 3px
+		a
+			font-size: 12px
+			padding: 2px 0
+	.banners-section .pr-2
+		padding-right: 0
+		margin-bottom: 5px
+	.banners-section .pl-2
+		padding-left: 0	
+	.tabs-headeing .tabs li
+		padding: 10px 21px
+	.tab-content .slick-arrow
+		bottom: -40px
+		right: 0
+		width: 30px
+		height: 30px
+		left: inherit	
+	.tab-content .slick-arrow.slick-prev
+		left: inherit
+		right: 40px	
+	.help-section
+    background-position: 45% 0		
+	.partners-inner__item
+    flex-basis: 20%	
+	.partners-inner__item
+		flex-basis: 42%		
+	.advantage-section
+		padding: 35px 0
+	.advantage-heading__title
+		margin-bottom: 13px
+	.tabs-inner
+		min-height: 240px
+	.help-heading__title
+		font-size: 21px
+		margin-bottom: 14px
+		line-height: 24px	
+	.help-heading__description
+		margin-bottom: 20px	
+	.advantage-item__icon 
+    padding: 19px
+    margin-bottom: 10px
+    width: 85px
+    height: 88px				
+	.advantage-item__description
+		font-size: 13px
+	.footer-item-contact 
+    margin-right: 8px
+    flex-basis: 47%		
+	.footer-item__title
+		margin-bottom: 7px	
+
+	.door-inner .slick-arrow
+		right: 0
+		left: inherit
+		&.slick-prev
+			right: 55px		
+			left: inherit		
+	.banner-slider-inner
+		.slick-slide 
+			img 
+				max-width: 710px
+				height: 350px			
+// ≥576px
++media-breakpoint-down(xs)
+	.header__menu
+		display: none
+	.header__information
+		padding: 10px 0
+	.button-menu
+		display: block
+	.header__logo img
+		height: 50px	
+	.header-contacts__item__icon
+		img
+			height: 28px
+	.header-bag__icon
+		img
+			height: 24px
+	.header-contacts__item__info__title
+		margin-bottom: 2px		
+	.header-contacts__item__info
+    top: 39px
+    z-index: 2
+    padding: 1px 1px 4px 1px
+    margin-top: 1px
+    width: 166px				
+	.header-bag__content
+		display: none
+	.header-bag
+		margin: 0
+		height: 100%
+	.header-contacts__item
+		margin: 0					
+	.tabs-headeing .tabs li
+		font-size: 12px
+		padding: 10px 8px
+		letter-spacing: 0
+	.tabs
+		.tab-link
+			img
+				display: none	
+	.tabs-inner
+		min-height: 200px
+	.slick-tabs__title 
+    font-size: 17px
+    line-height: 22px
+	.footer-padding-top-mobile
+		padding-top: 30px				
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
